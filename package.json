@@ -1,0 +1,17 @@
+{
+  "name": "jesstest",
+  "version": "1.0.0",
+  "description": "Automated API Testing with Playwright",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "tests:api": "playwright test --config=api.config.ts --project=Chromium"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.45.1",
+    "@types/node": "^20.14.10"
+  }
+}
